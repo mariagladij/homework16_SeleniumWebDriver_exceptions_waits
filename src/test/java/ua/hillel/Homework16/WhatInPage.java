@@ -47,5 +47,4 @@ public class WhatInPage {
         findInputField.sendKeys("I want to sleep!");
 
     }
-
 }
