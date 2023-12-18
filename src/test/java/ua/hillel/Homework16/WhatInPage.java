@@ -45,6 +45,5 @@ public class WhatInPage {
         Thread.sleep(3000);
         WebElement findInputField = driver.findElement(By.id("revealed"));
         findInputField.sendKeys("I want to sleep!");
-
     }
 }

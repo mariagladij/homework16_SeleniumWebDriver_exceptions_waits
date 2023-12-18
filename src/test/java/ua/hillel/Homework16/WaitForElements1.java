@@ -67,6 +67,5 @@ public class WaitForElements1 {
 
         WebElement text = fluentWait.until(ExpectedConditions.visibilityOfElementLocated(By.id("finish")));
         Assert.assertEquals(text.getText(), "Hello World!");
-
     }
 }
