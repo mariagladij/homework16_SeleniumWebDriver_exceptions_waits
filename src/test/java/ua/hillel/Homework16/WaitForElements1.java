@@ -70,4 +70,3 @@ public class WaitForElements1 {
         Assert.assertEquals(text.getText(), "Hello World!");
     }
 }
-
